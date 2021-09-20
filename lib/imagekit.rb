@@ -1,5 +1,9 @@
 # frozen_string_literal: true
 
+require "openssl"
+require "active_support/configurable"
+require "active_support/core_ext/array/wrap"
+
 module Imagekit
   include ActiveSupport::Configurable
 
